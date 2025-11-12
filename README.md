@@ -1,12 +1,13 @@
 # SKILL ASSESSMENT - 1
 ## Write an assembly language program in 8051 to find the largest number from a given set of N numbers stored in memory. Display the result in AL register.
-
+# NAME : SHRUTHI S
+# REG NO : 212222220044
 ## AIM :
 To write and execute an 8051 assembly language program to find the largest number from a given set of N numbers stored in internal memory, and display the result in the Accumulator (A) register using Keil µVision.
 
 ## APARATUS REQUIRED :
-Keil µVision5 IDE
-Laptop
+    Keil µVision5 IDE
+    Laptop
 
 # ALGORITHM :
 STEP 1 : Start the program and initialize the data pointer.
@@ -26,10 +27,6 @@ STEP 6 : Repeat the comparison until all N elements are processed.
 
 ## PROGRAM :
 ```
-; Program: Find the Largest Number from N numbers stored in internal RAM
-; Author: Shruthi S
-; Assembler: Keil µVision 8051 Assembler
-; Result: Largest number displayed in A (Accumulator)
 
         ORG 0000H
 START:  
